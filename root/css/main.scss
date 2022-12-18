@@ -1,0 +1,348 @@
+/*------------> Globales <-----------*/
+body {
+    background-color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-size: 16px;
+  }
+.flex {
+    display: flex;
+  }
+  /*------------> Navegacion <-----------*/
+.menuNavegacion.flex {
+    justify-content: space-evenly;
+    padding: 80px 0px 40px 0px;
+  }
+.burguer {
+    width: 50px;
+    height: 50px;
+  }
+ /*------------> URL despues del logo <-----------*/
+.navegacionTop.flex {
+    color: #242e52;
+    font-size: 13px;
+    font-weight: 500;
+    list-style: none;
+    width: 30%;
+    justify-content: space-around;
+  }
+
+p {
+    a {
+        margin-right: 30px;
+    }
+}
+/*------------> Propiedades Boton Generico <----------- */
+.boton {
+    background-color: rgb(139, 72, 191); 
+    width: 134px;
+    height: 44px;
+    border: none;
+    font-size: 13px;
+    font-weight: 500;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+a{ 
+    .boton {
+    color: white;
+    text-decoration: none;
+  }
+}
+  /*------------> Primera seccion = Imagen principal + H1 <-----------*/
+.primeraSeccion.flex {
+    padding-top: 100px;
+    justify-content: center;
+}
+.tituloPortada {
+    text-align: right;
+    width: 450px;
+    h1 {
+        font-size: 50px;
+        font-weight: 700;
+         color: #232c50;
+    }
+}
+/*------------> Contenido Principal <-----------*/
+.principal {
+    margin-top: 100px;
+  }
+/*------------> Segunda Seccion = H2 + P <-----------*/
+.segundaSeccion.flex {
+    background-color: #8b48bf;
+    justify-content: center;
+    color: #ffffff;
+    padding: 40px 0px 80px 0px;
+    height: 60px;
+  }
+.segundaSeccion { 
+    h2 {
+    font-size: 36px;
+    font-weight: 700;
+    width: 540px;
+    margin: 10px 0px;
+  }
+    p {
+    font-size: 16px;
+    font-weight: 500;
+    width: 480px;
+    margin: 10px 0px;
+  }
+}
+/*------------> Estilo de las Cards <-----------*/
+.cardContainer.flex {
+    flex-wrap: wrap;
+    height: 430px;
+    padding-top: 40px;
+    background-color: #fafafa;
+    justify-content: center;
+}
+  .card.flex {
+    width: 550px;
+    height: 160px;
+    flex-wrap: wrap;
+    margin: 20px 20px 20px 40px;
+}
+  .boton2 {
+    background-color: rgb(139, 72, 191);
+    width: 69px;
+    height: 43px;
+    border: none;
+    font-size: 16px;
+    border-radius: 50px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.tituloCard {
+    span {
+    font-weight: bold;
+    margin-left: 23px;
+  }
+}
+.descripcionCard {
+    width: 440px;
+    height: 105px;
+    color: #b3b2b7;
+    margin-left: 95px;
+  }
+/*------------> Seccion Best Of The Month <-----------*/
+.bestMonth {
+    h1 {
+    font-size: 39px;
+    text-align: center;
+    color: #242e53;
+    padding-top: 60px;
+  }
+}
+.containerMonth.flex {
+  padding-top: 70px;
+  justify-content: center;
+}
+.cardMonth {
+    width: 426px;
+    height: 220px;
+    background-color: #fafafa;
+    text-align: center;
+    font-size: 16px;
+    h2 {
+        color:#3f4868;
+        }
+    p {
+        color:#b9b9c1;
+        line-height: 175%;
+    }
+    img {
+        margin-top: -35px;
+    }
+  }
+.More {
+  text-align: center;
+  margin: 45px 0 180px 0;
+}
+/*------------> apartado/seccion <-----------*/
+.goforIt {
+  height: 224px;
+  background-color: #8b48bf;
+  h1 {
+    font-size: 40px;
+    color: #ffffff;
+    width: 500px;
+  }
+  .boton {
+    background-color: #ffffff;
+    color: #8b48bf;
+    a {
+      text-decoration: none;
+    }
+  }
+}
+/*------------> Estilo Footer <-----------*/
+.footerNav.flex {
+  height: 100%;
+  width: 100%;
+  background-color: #1e1e26;
+  justify-content: center;
+}
+.footerContainer.flex {
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  height: 247px;
+  justify-content: space-between;
+  align-content: center;
+}
+.logos.flex {
+  flex-wrap: wrap;
+  width: 20%;
+  order: 3;
+}
+.logos {
+  .logosFooter{
+    width: 120px;
+    height: 25px;
+  }
+}
+.logoContainer {
+  justify-content: center;
+  img {
+    width: 20px;
+    height: 20px;
+    margin: 8px 10px;
+  }
+}
+.navFooter00.flex {
+  width: 25%;
+  justify-content: space-between;
+  order: 2;
+}
+.navFooter01 {
+  list-style: none;
+  line-height: 200%;
+  margin: 0;
+  padding: 0;
+  a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+}
+.formFooter.flex{
+  width: 25%;
+  justify-content: space-around;
+  order: 1;
+}
+.formFooter{
+  .boton {
+    width: 60px;
+    height: 40px;
+  }
+}
+#suscribe {
+  width: 200px;
+  height: 40px;
+  border-radius: 50px;
+}
+.copyRight {
+  font-size: 12px;
+  color: #8c8c94;
+  order: 4;
+  text-align: center;
+  min-width: 345px;
+}
+/*------------> DISPLAY:NONE "DESAPARECER"  aplicar en menuburguer y lista de header<-----------*/
+.displayNone {
+  display: none;
+}
+/*------------> Transparencia de las URL y Boton <-----------*/
+p { 
+  a:hover {
+  color: #242e5299;
+  }
+}
+.boton:hover {
+  background-color: rgba(139, 72, 191, 0.7);
+  cursor: pointer;
+}
+.goforIt {
+  .boton:hover {
+    background-color: rgba(139, 72, 191, 0.7);
+    cursor: pointer;
+  }
+  .boton.best:hover{
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+  }
+}
+/*------------> Media queries <-----------*/
+@media screen and (max-width: 480px) {
+  /*------------> header style mobile<-----------*/
+    .menuNavegacion {
+      justify-content: space-around;
+      align-items: center;
+    }
+    .menuNavegacion .navegacionTop,
+    .menuNavegacion .boton {
+      display: none;
+    }
+    .menuNavegacion .displayNone.burguer {
+      display: inline;
+    }
+     /*------------> primera seccion style mobile<-----------*/
+    .primeraSeccion {
+      flex-direction: column;
+      margin-top: 20px;
+    }
+     /*------------> Main style mobile <-----------*/
+     .segundaSeccion.flex {
+      background-color: #3cddf3;
+      flex-direction: column;
+      height: auto;
+    }
+      .segundaSeccion h2,
+    .segundaSeccion p {
+    width: 100%;
+    }
+    .cardContainer.flex {
+      justify-content: space-between;
+      .descripcionCard {
+        width: 95%;
+        margin-left: 0;
+      }
+    }
+    .tituloCard {
+      background-color: #8b48bf4d;
+      width: 100%;
+      border-radius: 50px 0 0 50px;
+    }
+    .cardMonth.Navarro,
+    .cardMonth.Sanyo {
+      display: none;
+    }
+    .bestMonth h1 {
+      padding-top: 160px;
+    }
+    .More {
+      margin: 0px;
+    }
+    .goforIt {
+      text-align: center;
+      width: 100%;
+      background-color: #3cddf3;
+      height: 300px;
+      h1 {
+        width: 100%;
+      }
+      .boton {
+        background-color: #232c50;
+        a {
+          color: #ffffff;
+        }
+      }
+    }
+    .containerGo.flex {
+      margin: 30px 0px 0px 0px;
+      height: 85%;
+      align-items: center;
+      flex-direction: column;
+    }
+}
