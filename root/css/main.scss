@@ -345,4 +345,30 @@ p {
       align-items: center;
       flex-direction: column;
     }
+    /*------------> footer mobile <-----------*/
+  .footerContainer.flex {
+    flex-direction: column;
+    height: 450px;
+    padding-top: 50px;
+  }
+  .formFooter.flex,
+  .navFooter00.flex,
+  .logos.flex {
+    width: auto;
+  }
+  .logos {
+    flex-direction: column-reverse;
+    width: 350px;
+    .logosFooter {
+      width: 100%;
+      padding-top: 40px;
+    }
+  }
+  .copyRight {
+    min-width: 300px;
+  }
+  .logoContainer {
+    display: flex;
+    justify-content: space-between;
+  }
 }
