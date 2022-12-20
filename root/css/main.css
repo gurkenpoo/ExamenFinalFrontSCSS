@@ -1,10 +1,10 @@
+/* ----->Variables <------ */
 /*------------> Globales <-----------*/
 body {
   background-color: #ffffff;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   font-family: "Be Vietnam Pro", sans-serif;
-  font-size: 16px;
 }
 
 .flex {
@@ -14,7 +14,7 @@ body {
 /*------------> Navegacion <-----------*/
 .menuNavegacion.flex {
   justify-content: space-evenly;
-  padding: 80px 0px 40px 0px;
+  padding: 80px 0 40px 0;
 }
 
 .burguer {
@@ -38,13 +38,13 @@ p a {
 
 /*------------> Propiedades Boton Generico <----------- */
 .boton {
-  background-color: rgb(139, 72, 191);
+  background-color: #8b48bf;
   width: 134px;
   height: 44px;
   border: none;
   font-size: 13px;
   font-weight: 500;
-  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.25);
   border-radius: 50px;
 }
 
@@ -79,7 +79,7 @@ a .boton {
   background-color: #8b48bf;
   justify-content: center;
   color: #ffffff;
-  padding: 40px 0px 80px 0px;
+  padding: 40px 0 80px 0;
   height: 60px;
 }
 
@@ -87,13 +87,13 @@ a .boton {
   font-size: 36px;
   font-weight: 700;
   width: 540px;
-  margin: 10px 0px;
+  margin: 10px 0;
 }
 .segundaSeccion p {
   font-size: 16px;
   font-weight: 500;
   width: 480px;
-  margin: 10px 0px;
+  margin: 10px 0;
 }
 
 /*------------> Estilo de las Cards <-----------*/
@@ -336,7 +336,7 @@ p a:hover {
     margin-left: 0;
   }
   .tituloCard {
-    background-color: rgba(139, 72, 191, 0.3019607843);
+    background-color: rgba(139, 72, 191, 0.302);
     width: 100%;
     border-radius: 50px 0 0 50px;
   }
@@ -348,7 +348,7 @@ p a:hover {
     padding-top: 160px;
   }
   .More {
-    margin: 0px;
+    margin: 0;
   }
   .goforIt {
     text-align: center;
@@ -366,7 +366,7 @@ p a:hover {
     color: #ffffff;
   }
   .containerGo.flex {
-    margin: 30px 0px 0px 0px;
+    margin: 30px 0 0 0;
     height: 85%;
     align-items: center;
     flex-direction: column;
